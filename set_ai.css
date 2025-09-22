@@ -1,0 +1,162 @@
+#j{
+    width:auto;
+    background-color:rgb(31, 30, 30);
+    height:45px;
+    position:relative;
+    z-index:1;
+    box-shadow:0px 15px 30px rgb(60, 60, 60);
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+body{
+    margin:0;
+    padding:0px;
+    background:linear-gradient(90deg,rgba(3, 3, 3, 1) 49%, rgba(48, 47, 47, 1) 100%);
+}
+
+body,html{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#c{
+    height:calc(100vh - 45px);
+    width:105px;
+    background-color:rgb(57, 55, 55);
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-direction:column;
+    padding-top:0px;
+    border-top-right-radius:9px;
+    border-bottom-right-radius:9px;
+}
+
+.jk{
+    position:relative;
+    background-color:rgb(45, 40, 40);
+    width:90px;
+    height:40px;
+    border-radius:8px;
+    z-index:2;
+}
+
+.jk:hover{
+    background-color:rgb(107, 103, 106);
+}
+
+#j #plus{
+    color:white;
+    font-family:verdana;
+    position:relative;
+    font-size:20px;
+    left:10px;
+}
+
+#one, #two, #three{
+    margin-right:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0;
+    text-align:center;
+    font-size:10px;
+    color:white;
+    position:relative;
+    font-size:17px;
+    left:10px;
+}
+
+#suround{
+    position:absolute;
+    top:35px;
+    right:0px;
+    height:auto;
+    width:100px;
+    background-color:rgb(45, 40, 40);
+    text-align:center;
+    border-radius:12px;
+    display:none;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    padding-bottom:15px;
+}
+
+#suround a{
+    text-decoration:none;
+    height:20px;
+    width:80px;
+    display:block;
+    position:relative;
+    left:10px;
+    border-radius:7px;
+}
+
+#suround p:hover{
+    color:rgb(154, 147, 147);
+}
+
+#j #suy{
+    width:80px;
+    height:35px;
+    background-color:rgb(57, 55, 55);
+    position:absolute;
+    margin-right:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:verdana;
+    color:white;
+    border-radius:12px;
+}
+
+#j #suy:hover{
+    background-color:rgb(59, 49, 49);
+}
+
+#dropdown{
+    position:absolute;
+    display:inline-block;
+    right:0;
+    height:35px;
+    width:80px;
+    margin-right:10px;
+    border-radius:12px;
+}
+
+#dropdown:hover{
+    cursor:pointer;
+}
+
+#dropdown:hover #suround{
+    display:block;
+}
+
+#coruse{
+    padding-top:10px;
+    position:absolute;
+    color:aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+#uj{
+    position:absolute;
+    top:30px;
+    font-size:30px;
+    color:aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+#set{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    width:auto;
+    margin-left:105px;
+}
